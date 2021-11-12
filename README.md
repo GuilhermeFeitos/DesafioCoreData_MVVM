@@ -22,7 +22,10 @@ Note: Project Created on StoryBoard
 
 - Alert
 
-![Captura de Tela 2021-11-12 às 13 35 44](https://user-images.githubusercontent.com/60949738/141501905-e1610332-2d45-432b-bfcb-77681a42745d.png)
+![Captura de Tela 2021-11-12 às 13 38 18](https://user-images.githubusercontent.com/60949738/141502178-9264d406-0dd3-4b12-bd8f-2e54e1417a2c.png)
+
+
+
 
 - Information TableView
 
