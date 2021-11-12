@@ -14,6 +14,7 @@
 		D0729220273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D072921E273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld */; };
 		D0729222273EC47E00D2E549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0729221273EC47E00D2E549 /* Assets.xcassets */; };
 		D0729225273EC47E00D2E549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0729223273EC47E00D2E549 /* LaunchScreen.storyboard */; };
+		D0729230273EC7A000D2E549 /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072922F273EC7A000D2E549 /* PeopleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D0729221273EC47E00D2E549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0729224273EC47E00D2E549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0729226273EC47E00D2E549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D072922F273EC7A000D2E549 /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,41 @@
 		D0729214273EC47D00D2E549 /* Desafio_CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				D072921E273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld */,
+				D072922E273EC77200D2E549 /* Model */,
+				D072922D273EC76A00D2E549 /* ViewModel */,
+				D072922C273EC76100D2E549 /* View */,
 				D0729215273EC47D00D2E549 /* AppDelegate.swift */,
 				D0729217273EC47D00D2E549 /* SceneDelegate.swift */,
 				D0729219273EC47D00D2E549 /* ViewController.swift */,
-				D072921B273EC47D00D2E549 /* Main.storyboard */,
 				D0729221273EC47E00D2E549 /* Assets.xcassets */,
 				D0729223273EC47E00D2E549 /* LaunchScreen.storyboard */,
 				D0729226273EC47E00D2E549 /* Info.plist */,
-				D072921E273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld */,
 			);
 			path = Desafio_CoreData;
+			sourceTree = "<group>";
+		};
+		D072922C273EC76100D2E549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D072921B273EC47D00D2E549 /* Main.storyboard */,
+				D072922F273EC7A000D2E549 /* PeopleTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D072922D273EC76A00D2E549 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D072922E273EC77200D2E549 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0729230273EC7A000D2E549 /* PeopleTableViewCell.swift in Sources */,
 				D072921A273EC47D00D2E549 /* ViewController.swift in Sources */,
 				D0729216273EC47D00D2E549 /* AppDelegate.swift in Sources */,
 				D0729220273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld in Sources */,
