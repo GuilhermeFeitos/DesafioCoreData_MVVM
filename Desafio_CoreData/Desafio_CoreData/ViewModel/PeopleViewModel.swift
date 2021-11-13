@@ -44,10 +44,16 @@ class PeopleViewModel {
             
             let age = convertStringAgeForInt16(strAge: age!)
             
-            guard let person = findFirstPeopleWith(name: name!, age: age) else { return }
+            guard let person = findFirstPeopleWith(name: name!, age: age) else {
+                
+                delegate?.errorAddPeople()
+                return
+                
+            }
             
             people = service.removePeopleInCoreData(person: person)
             delegate?.reloadData()
+        
         }
     }
     
