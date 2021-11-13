@@ -27,8 +27,13 @@ Note: Project Created on StoryBoard
  ![Captura de Tela 2021-11-12 às 22 40 50](https://user-images.githubusercontent.com/60949738/141601026-93df3878-d9d0-49f2-a1e9-b65b114747c6.png)
 
  - Alert
+   - Error ADD
 
 ![Captura de Tela 2021-11-12 às 22 41 35](https://user-images.githubusercontent.com/60949738/141601067-22229fec-98dc-439d-a94b-d5c0b480a908.png)
+
+   - Error Remove
+   
+![Captura de Tela 2021-11-12 às 22 51 02](https://user-images.githubusercontent.com/60949738/141601338-95c1e5b1-0436-488d-9d62-36406b94c9bd.png)
 
 
  - Information TableView
