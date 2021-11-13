@@ -18,6 +18,7 @@
 		D0729232273ECA2700D2E549 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0729231273ECA2700D2E549 /* PeopleViewModel.swift */; };
 		D0729239273ECCAC00D2E549 /* People+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0729237273ECCAC00D2E549 /* People+CoreDataClass.swift */; };
 		D072923A273ECCAC00D2E549 /* People+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0729238273ECCAC00D2E549 /* People+CoreDataProperties.swift */; };
+		D072923C273F22E900D2E549 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072923B273F22E900D2E549 /* CoreDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D0729231273ECA2700D2E549 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		D0729237273ECCAC00D2E549 /* People+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D0729238273ECCAC00D2E549 /* People+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D072923B273F22E900D2E549 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				D072922E273EC77200D2E549 /* Model */,
 				D072922D273EC76A00D2E549 /* ViewModel */,
 				D072922C273EC76100D2E549 /* View */,
+				D072923D273F254E00D2E549 /* Service */,
 				D0729215273EC47D00D2E549 /* AppDelegate.swift */,
 				D0729217273EC47D00D2E549 /* SceneDelegate.swift */,
 				D0729219273EC47D00D2E549 /* ViewController.swift */,
@@ -104,6 +107,14 @@
 				D0729238273ECCAC00D2E549 /* People+CoreDataProperties.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D072923D273F254E00D2E549 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D072923B273F22E900D2E549 /* CoreDataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				D0729239273ECCAC00D2E549 /* People+CoreDataClass.swift in Sources */,
 				D0729216273EC47D00D2E549 /* AppDelegate.swift in Sources */,
 				D0729220273EC47D00D2E549 /* Desafio_CoreData.xcdatamodeld in Sources */,
+				D072923C273F22E900D2E549 /* CoreDataService.swift in Sources */,
 				D0729218273EC47D00D2E549 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
