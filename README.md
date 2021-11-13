@@ -1,6 +1,6 @@
 # DesafioCoreData_MVVM
 
-Desafio: Contruir um aplicativo contendo uma TableView, dois textFields um para "Nome" e outro para "Idade".
+Desafio: Construir um aplicativo contendo uma TableView, dois textFields um para "Nome" e outro para "Idade".
 Adicinoar na ViewController dois botões, um para "Adicionar" e outro para "Remover" as informações no CoreData,
 e ao clicar na célula ser possível deletar a informação.
 
