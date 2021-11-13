@@ -94,6 +94,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="6S0-nc-6L9" secondAttribute="trailing" id="z0A-gJ-5Yv"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameAgeLabel" destination="6S0-nc-6L9" id="qD2-Vw-EMf"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -124,6 +127,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ageTextField" destination="gcf-43-YXj" id="GTt-xh-8M5"/>
+                        <outlet property="nameTextField" destination="Rmc-3T-Rh9" id="MAs-wJ-RPO"/>
                         <outlet property="personalDataTableView" destination="pCM-An-4BN" id="rY3-qw-1xK"/>
                     </connections>
                 </viewController>

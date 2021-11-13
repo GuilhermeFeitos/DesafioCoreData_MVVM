@@ -8,6 +8,8 @@
 import UIKit
 
 class PeopleTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var nameAgeLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,4 +22,8 @@ class PeopleTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setup(name: String, age: Int16) {
+        nameAgeLabel.text = "\(name) - \(String(age))"
+    }
+
 }
