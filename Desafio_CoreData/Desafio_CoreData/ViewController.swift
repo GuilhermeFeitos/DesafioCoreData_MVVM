@@ -63,9 +63,9 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: PeopleViewModelDelegate {
-     func errorAddPeople() {
-        
-        let alert = UIAlertController(title: "", message: "Please, add a valid Name or Age", preferredStyle: .alert)
+      
+    func errorRemovePeople() {
+        let alert = UIAlertController(title: "", message: "Please, inform a valid Name or Age", preferredStyle: .alert)
 
         let okAction = UIAlertAction(title: "Ok", style: .default) { myAlert in
         }
@@ -82,6 +82,22 @@ extension ViewController: PeopleViewModelDelegate {
     func reloadData() {
         personalDataTableView.reloadData()
         clearBorderTextFields()
+    }
+    
+     func errorAddPeople() {
+        
+        let alert = UIAlertController(title: "", message: "Please, add a valid Name or Age", preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "Ok", style: .default) { myAlert in
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+        
+        alterBorderTextFields()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2 ) {
+            self.clearBorderTextFields()
+        }
     }
 }
 

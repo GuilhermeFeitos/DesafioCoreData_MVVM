@@ -11,6 +11,7 @@ import UIKit
 protocol PeopleViewModelDelegate {
     func errorAddPeople()
     func reloadData()
+    func errorRemovePeople()
 }
 
 class PeopleViewModel {
@@ -46,14 +47,14 @@ class PeopleViewModel {
             
             guard let person = findFirstPeopleWith(name: name!, age: age) else {
                 
-                delegate?.errorAddPeople()
+                delegate?.errorRemovePeople()
                 return
                 
             }
             
             people = service.removePeopleInCoreData(person: person)
             delegate?.reloadData()
-        
+            
         }
     }
     
