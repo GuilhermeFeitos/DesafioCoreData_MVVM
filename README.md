@@ -1,7 +1,8 @@
 # DesafioCoreData_MVVM
 
 Desafio: Contruir um aplicativo contendo uma TableView, dois textFields um para "Nome" e outro para "Idade".
-Adicinoar na ViewController dois botões, um para "Adicionar" e outro para "Remover" as informações no CoreData
+Adicinoar na ViewController dois botões, um para "Adicionar" e outro para "Remover" as informações no CoreData,
+e ao clicar na célula ser possível deletar a informação.
 
 Criar o projeto em estrutura MVVM
 
@@ -9,8 +10,9 @@ Obs.: Projeto Criado em StoryBoard
 
 //
 
-Challenge: Build an application containing a TableView, two textFields one for "Name" and one for "Age".
-Add two buttons in the ViewController, one for "Add" and one for "Remove" the information in CoreData
+Challenge: Build an app containing a TableView, two textFields, one for "Name" and one for "Age".
+Add two buttons to the ViewController, one to "Add" and one to "Remove" the information in CoreData,
+and clicking on the cell it is possible to delete the information.
 
 Create the project in MVVM structure
 
@@ -42,8 +44,7 @@ Note: Project Created on StoryBoard
 
  - Video
 
-https://user-images.githubusercontent.com/60949738/141602137-8dbfef27-2438-402e-80b9-dc0aff1486fa.mov
-
+https://user-images.githubusercontent.com/60949738/141602481-4d37089f-d52d-47aa-9012-f313fa220d9f.mov
 
 
 
